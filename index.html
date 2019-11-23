@@ -22,7 +22,7 @@
 
     <!-- navbar -->
     <nav id='navbar' class="navbar navbar-expand-lg navbar-dark bg-primary" style="text-align: center;">
-        <!-- <div class="container-fluid"> -->
+        <!-- only putting the centering css (margin 0 display block) on the li's -->
                 <a id="sm_brand" class="navbar-brand" href="#navbar" style="display: none;">Shane Marvin May</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colapsable" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -193,11 +193,9 @@
     <!-- js -->
     <script>
         function pick_brand(){
-            console.log('func trig' + window.innerWidth);
-            sm_brand = document.querySelector('#sm_brand');
-            bg_brand = document.querySelector('#bg_brand');
+            let sm_brand = document.querySelector('#sm_brand');
+            let bg_brand = document.querySelector('#bg_brand');
             if (window.innerWidth < 990){
-                console.log('sm');
                 sm_brand.style.display = 'block';
                 bg_brand.style.display = 'none';
             }
