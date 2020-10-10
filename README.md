@@ -1,8 +1,9 @@
 # shanemarvinmay
 This is the front end of my personal site.
 
+## [Link to personal site](https://shanemarvinmay.github.io/shanemarvinmay/)
 
-info 
+## info 
 
 [boostrap dark theme](https://bootswatch.com/darkly/)
 
